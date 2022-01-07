@@ -13,8 +13,8 @@ Clone LXC ubuntu_php7.4 menjadi ubuntu_php7.4_2 dan ubuntu_php7.4_3
     sudo lxc-copy -n ubuntu_php7.4 -N ubuntu_php7.4_2 -sKD
     sudo lxc-copy -n ubuntu_php7.4 -N ubuntu_php7.4_3 -sKD
      ```
-        ![A1](aset/G1.jpg)
-        ![A1](aset/G2.jpg)
+    ![A1](aset/G1.jpg)
+    ![A1](aset/G2.jpg)
 
 2. Start LXC
     ```bash
@@ -22,14 +22,14 @@ Clone LXC ubuntu_php7.4 menjadi ubuntu_php7.4_2 dan ubuntu_php7.4_3
     sudo lxc-start -n ubuntu_php7.4_2
     sudo lxc-start -n ubuntu_php7.4_3
     ```
-        ![A1](aset/G3.jpg)
+    ![A1](aset/G3.jpg)
 
     ### Masuk ubuntu php7.4_2 dan kemudian Configurasi IP dan nginx ubuntu_php7.4_2
     ```bash
     sudo lxc-attach -n ubuntu_php7.4_2
     nano /etc/netplan/10-lxc.yaml
     ```
-        ![A1](aset/G4.jpg)
+    ![A1](aset/G4.jpg)
 
     ganti ip menjadi 10.0.3.111
         ![A1](aset/G5.jpg)
